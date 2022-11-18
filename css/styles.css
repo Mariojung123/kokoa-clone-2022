@@ -5,6 +5,7 @@
 /* components */
 @import 'variables.css';
 @import 'components/nav-var.css';
+@import 'components/screen-header.css';
 
 /* screens */
 @import 'screens/login.css';
