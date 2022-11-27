@@ -31,3 +31,55 @@
   color: var(--grey);
   font-size: 18px;
 }
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post {
+  display: flex;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.open-post__hashtags {
+  opacity: 0.6;
+  text-transform: uppercase;
+}
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+.open-post__members img {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border-radius: 11px;
+  margin-right: 7px;
+}
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 17px;
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: var(--grey);
+}
+.open-post__member-status {
+  color: #fd72c7;
+  font-size: 17px;
+}
+.open-post__side img {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
